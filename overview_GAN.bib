@@ -1,0 +1,152 @@
+
+@article{goodfellow_generative_2014,
+  title = {Generative {{Adversarial Networks}}},
+  abstract = {We propose a new framework for estimating generative models via an adversarial process, in which we simultaneously train two models: a generative model G that captures the data distribution, and a discriminative model D that estimates the probability that a sample came from the training data rather than G. The training procedure for G is to maximize the probability of D making a mistake. This framework corresponds to a minimax two-player game. In the space of arbitrary functions G and D, a unique solution exists, with G recovering the training data distribution and D equal to 1/2 everywhere. In the case where G and D are defined by multilayer perceptrons, the entire system can be trained with backpropagation. There is no need for any Markov chains or unrolled approximate inference networks during either training or generation of samples. Experiments demonstrate the potential of the framework through qualitative and quantitative evaluation of the generated samples.},
+  timestamp = {2017-04-14T07:58:48Z},
+  archivePrefix = {arXiv},
+  eprinttype = {arxiv},
+  eprint = {1406.2661},
+  primaryClass = {cs, stat},
+  urldate = {2017-04-14},
+  journal = {arXiv:1406.2661 [cs, stat]},
+  author = {Goodfellow, Ian J. and Pouget-Abadie, Jean and Mirza, Mehdi and Xu, Bing and Warde-Farley, David and Ozair, Sherjil and Courville, Aaron and Bengio, Yoshua},
+  month = jun,
+  year = {2014},
+  keywords = {Computer Science - Learning,Statistics - Machine Learning},
+  file = {arXiv\:1406.2661 PDF:/Users/mca/Library/Application Support/Zotero/Profiles/b0y4t97l.default/zotero/storage/GTT8QPFD/Goodfellow et al. - 2014 - Generative Adversarial Networks.pdf:application/pdf;arXiv.org Snapshot:/Users/mca/Library/Application Support/Zotero/Profiles/b0y4t97l.default/zotero/storage/QDRVI7V9/1406.html:text/html},
+  groups = {Generative Adversarial Networks}
+}
+
+@misc{__????,
+  timestamp = {2017-04-14T08:20:24Z},
+  groups = {Generative Adversarial Networks}
+}
+
+@article{berthelot_began:_2017,
+  title = {{{BEGAN}}: {{Boundary Equilibrium Generative Adversarial Networks}}},
+  shorttitle = {{{BEGAN}}},
+  abstract = {We propose a new equilibrium enforcing method paired with a loss derived from the Wasserstein distance for training auto-encoder based Generative Adversarial Networks. This method balances the generator and discriminator during training. Additionally, it provides a new approximate convergence measure, fast and stable training and high visual quality. We also derive a way of controlling the trade-off between image diversity and visual quality. We focus on the image generation task, setting a new milestone in visual quality, even at higher resolutions. This is achieved while using a relatively simple model architecture and a standard training procedure.},
+  timestamp = {2017-04-14T08:40:48Z},
+  archivePrefix = {arXiv},
+  eprinttype = {arxiv},
+  eprint = {1703.10717},
+  primaryClass = {cs, stat},
+  urldate = {2017-04-14},
+  journal = {arXiv:1703.10717 [cs, stat]},
+  author = {Berthelot, David and Schumm, Thomas and Metz, Luke},
+  month = mar,
+  year = {2017},
+  keywords = {Computer Science - Learning,Statistics - Machine Learning},
+  file = {arXiv\:1703.10717 PDF:/Users/mca/Library/Application Support/Zotero/Profiles/b0y4t97l.default/zotero/storage/62M5BQE6/Berthelot et al. - 2017 - BEGAN Boundary Equilibrium Generative Adversarial.pdf:application/pdf;arXiv.org Snapshot:/Users/mca/Library/Application Support/Zotero/Profiles/b0y4t97l.default/zotero/storage/74MZQTWA/1703.html:text/html},
+  groups = {Generative Adversarial Networks}
+}
+
+@article{zhu_unpaired_2017,
+  title = {Unpaired {{Image}}-to-{{Image Translation}} Using {{Cycle}}-{{Consistent Adversarial Networks}}},
+  abstract = {Image-to-image translation is a class of vision and graphics problems where the goal is to learn the mapping between an input image and an output image using a training set of aligned image pairs. However, for many tasks, paired training data will not be available. We present an approach for learning to translate an image from a source domain \$X\$ to a target domain \$Y\$ in the absence of paired examples. Our goal is to learn a mapping \$G: X $\backslash$rightarrow Y\$ such that the distribution of images from \$G(X)\$ is indistinguishable from the distribution \$Y\$ using an adversarial loss. Because this mapping is highly under-constrained, we couple it with an inverse mapping \$F: Y $\backslash$rightarrow X\$ and introduce a cycle consistency loss to push \$F(G(X)) $\backslash$approx X\$ (and vice versa). Qualitative results are presented on several tasks where paired training data does not exist, including collection style transfer, object transfiguration, season transfer, photo enhancement, etc. Quantitative comparisons against several prior methods demonstrate the superiority of our approach.},
+  timestamp = {2017-04-14T08:44:20Z},
+  archivePrefix = {arXiv},
+  eprinttype = {arxiv},
+  eprint = {1703.10593},
+  primaryClass = {cs},
+  urldate = {2017-04-14},
+  journal = {arXiv:1703.10593 [cs]},
+  author = {Zhu, Jun-Yan and Park, Taesung and Isola, Phillip and Efros, Alexei A.},
+  month = mar,
+  year = {2017},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  file = {arXiv\:1703.10593 PDF:/Users/mca/Library/Application Support/Zotero/Profiles/b0y4t97l.default/zotero/storage/XXAUUMJ3/Zhu et al. - 2017 - Unpaired Image-to-Image Translation using Cycle-Co.pdf:application/pdf;arXiv.org Snapshot:/Users/mca/Library/Application Support/Zotero/Profiles/b0y4t97l.default/zotero/storage/WZ9BP7DV/1703.html:text/html},
+  groups = {Generative Adversarial Networks}
+}
+
+@article{arjovsky_wasserstein_2017,
+  title = {Wasserstein {{GAN}}},
+  abstract = {We introduce a new algorithm named WGAN, an alternative to traditional GAN training. In this new model, we show that we can improve the stability of learning, get rid of problems like mode collapse, and provide meaningful learning curves useful for debugging and hyperparameter searches. Furthermore, we show that the corresponding optimization problem is sound, and provide extensive theoretical work highlighting the deep connections to other distances between distributions.},
+  timestamp = {2017-04-14T08:44:32Z},
+  archivePrefix = {arXiv},
+  eprinttype = {arxiv},
+  eprint = {1701.07875},
+  primaryClass = {cs, stat},
+  urldate = {2017-04-14},
+  journal = {arXiv:1701.07875 [cs, stat]},
+  author = {Arjovsky, Martin and Chintala, Soumith and Bottou, L{\'e}on},
+  month = jan,
+  year = {2017},
+  keywords = {Computer Science - Learning,Statistics - Machine Learning},
+  file = {arXiv\:1701.07875 PDF:/Users/mca/Library/Application Support/Zotero/Profiles/b0y4t97l.default/zotero/storage/PWT26CM3/Arjovsky et al. - 2017 - Wasserstein GAN.pdf:application/pdf;arXiv.org Snapshot:/Users/mca/Library/Application Support/Zotero/Profiles/b0y4t97l.default/zotero/storage/GIWXP5HW/1701.html:text/html},
+  groups = {Generative Adversarial Networks}
+}
+
+@article{zhao_energy-based_2016,
+  title = {Energy-Based {{Generative Adversarial Network}}},
+  abstract = {We introduce the "Energy-based Generative Adversarial Network" model (EBGAN) which views the discriminator as an energy function that attributes low energies to the regions near the data manifold and higher energies to other regions. Similar to the probabilistic GANs, a generator is seen as being trained to produce contrastive samples with minimal energies, while the discriminator is trained to assign high energies to these generated samples. Viewing the discriminator as an energy function allows to use a wide variety of architectures and loss functionals in addition to the usual binary classifier with logistic output. Among them, we show one instantiation of EBGAN framework as using an auto-encoder architecture, with the energy being the reconstruction error, in place of the discriminator. We show that this form of EBGAN exhibits more stable behavior than regular GANs during training. We also show that a single-scale architecture can be trained to generate high-resolution images.},
+  timestamp = {2017-04-14T09:02:03Z},
+  archivePrefix = {arXiv},
+  eprinttype = {arxiv},
+  eprint = {1609.03126},
+  primaryClass = {cs, stat},
+  urldate = {2017-04-14},
+  journal = {arXiv:1609.03126 [cs, stat]},
+  author = {Zhao, Junbo and Mathieu, Michael and LeCun, Yann},
+  month = sep,
+  year = {2016},
+  keywords = {Computer Science - Learning,Statistics - Machine Learning},
+  file = {arXiv\:1609.03126 PDF:/Users/mca/Library/Application Support/Zotero/Profiles/b0y4t97l.default/zotero/storage/KUDCK9TZ/Zhao et al. - 2016 - Energy-based Generative Adversarial Network.pdf:application/pdf;arXiv.org Snapshot:/Users/mca/Library/Application Support/Zotero/Profiles/b0y4t97l.default/zotero/storage/ENUDFNPM/1609.html:text/html},
+  groups = {Generative Adversarial Networks}
+}
+
+@article{mao_least_2016,
+  title = {Least {{Squares Generative Adversarial Networks}}},
+  abstract = {Unsupervised learning with generative adversarial networks (GANs) has proven hugely successful. Regular GANs hypothesize the discriminator as a classifier with the sigmoid cross entropy loss function. However, we found that this loss function may lead to the vanishing gradients problem during the learning process. To overcome such a problem, we propose in this paper the Least Squares Generative Adversarial Networks (LSGANs) which adopt the least squares loss function for the discriminator. We show that minimizing the objective function of LSGAN yields minimizing the Pearson \$$\backslash$chi\^2\$ divergence. There are two benefits of LSGANs over regular GANs. First, LSGANs are able to generate higher quality images than regular GANs. Second, LSGANs perform more stable during the learning process. We evaluate LSGANs on five scene datasets and the experimental results show that the images generated by LSGANs are of better quality than the ones generated by regular GANs. We also conduct two comparison experiments between LSGANs and regular GANs to illustrate the stability of LSGANs.},
+  timestamp = {2017-04-14T09:13:49Z},
+  archivePrefix = {arXiv},
+  eprinttype = {arxiv},
+  eprint = {1611.04076},
+  primaryClass = {cs},
+  urldate = {2017-04-14},
+  journal = {arXiv:1611.04076 [cs]},
+  author = {Mao, Xudong and Li, Qing and Xie, Haoran and Lau, Raymond Y. K. and Wang, Zhen and Smolley, Stephen Paul},
+  month = nov,
+  year = {2016},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  file = {arXiv\:1611.04076 PDF:/Users/mca/Library/Application Support/Zotero/Profiles/b0y4t97l.default/zotero/storage/HER428FD/Mao et al. - 2016 - Least Squares Generative Adversarial Networks.pdf:application/pdf;arXiv.org Snapshot:/Users/mca/Library/Application Support/Zotero/Profiles/b0y4t97l.default/zotero/storage/W9I298VB/1611.html:text/html},
+  groups = {Generative Adversarial Networks}
+}
+
+@article{qi_loss-sensitive_2017,
+  title = {Loss-{{Sensitive Generative Adversarial Networks}} on {{Lipschitz Densities}}},
+  abstract = {*New Theory Result* We analyze the generalizability of the LS-GAN, showing that the loss function and generator trained over finite examples can converge to those learned from the real distributions with a moderate number of training examples. In this paper, we present a novel Loss-Sensitive GAN (LS-GAN) that learns a loss function to separate generated samples from their real examples. An important property of the LS-GAN is it allows the generator to focus on improving poor data points that are far apart from real examples rather than wasting efforts on those samples that have already been well generated, and thus can improve the overall quality of generated samples. The theoretical analysis also shows that the LS-GAN can generate samples following the true data density. In particular, we present a regularity condition on the underlying data density, which allows us to use a class of Lipschitz losses and generators to model the LS-GAN. It relaxes the assumption that the classic GAN should have infinite modeling capacity to obtain the similar theoretical guarantee. Furthermore, we show the generalization ability of the LS-GAN by bounding the difference between the model performances over the empirical and real distributions, as well as deriving a tractable sample complexity to train the LS-GAN model in terms of its generalization ability. We also derive a non-parametric solution that characterizes the upper and lower bounds of the losses learned by the LS-GAN, both of which are cone-shaped and have non-vanishing gradient almost everywhere.},
+  timestamp = {2017-04-14T09:14:30Z},
+  archivePrefix = {arXiv},
+  eprinttype = {arxiv},
+  eprint = {1701.06264},
+  primaryClass = {cs},
+  urldate = {2017-04-14},
+  journal = {arXiv:1701.06264 [cs]},
+  author = {Qi, Guo-Jun},
+  month = jan,
+  year = {2017},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  file = {arXiv\:1701.06264 PDF:/Users/mca/Library/Application Support/Zotero/Profiles/b0y4t97l.default/zotero/storage/ASPMAH4M/Qi - 2017 - Loss-Sensitive Generative Adversarial Networks on .pdf:application/pdf;arXiv.org Snapshot:/Users/mca/Library/Application Support/Zotero/Profiles/b0y4t97l.default/zotero/storage/8QV4GKGW/1701.html:text/html},
+  groups = {Generative Adversarial Networks}
+}
+
+@article{gulrajani_improved_2017,
+  title = {Improved {{Training}} of {{Wasserstein GANs}}},
+  abstract = {Generative Adversarial Networks (GANs) are powerful generative models, but suffer from training instability. The recently proposed Wasserstein GAN (WGAN) makes significant progress toward stable training of GANs, but can still generate low-quality samples or fail to converge in some settings. We find that these training failures are often due to the use of weight clipping in WGAN to enforce a Lipschitz constraint on the critic, which can lead to pathological behavior. We propose an alternative method for enforcing the Lipschitz constraint: instead of clipping weights, penalize the norm of the gradient of the critic with respect to its input. Our proposed method converges faster and generates higher-quality samples than WGAN with weight clipping. Finally, our method enables very stable GAN training: for the first time, we can train a wide variety of GAN architectures with almost no hyperparameter tuning, including 101-layer ResNets and language models over discrete data.},
+  timestamp = {2017-04-14T09:25:17Z},
+  archivePrefix = {arXiv},
+  eprinttype = {arxiv},
+  eprint = {1704.00028},
+  primaryClass = {cs, stat},
+  urldate = {2017-04-14},
+  journal = {arXiv:1704.00028 [cs, stat]},
+  author = {Gulrajani, Ishaan and Ahmed, Faruk and Arjovsky, Martin and Dumoulin, Vincent and Courville, Aaron},
+  month = mar,
+  year = {2017},
+  keywords = {Computer Science - Learning,Statistics - Machine Learning},
+  file = {arXiv\:1704.00028 PDF:/Users/mca/Library/Application Support/Zotero/Profiles/b0y4t97l.default/zotero/storage/W24NXTD2/Gulrajani et al. - 2017 - Improved Training of Wasserstein GANs.pdf:application/pdf;arXiv.org Snapshot:/Users/mca/Library/Application Support/Zotero/Profiles/b0y4t97l.default/zotero/storage/4SHFM3IT/1704.html:text/html},
+  groups = {Generative Adversarial Networks}
+}
+
+
