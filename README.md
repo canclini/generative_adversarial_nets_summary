@@ -1,5 +1,5 @@
 ## About
-As part of the Machine Learning Module from the [CAS Machine Intelligence](https://weiterbildung.zhaw.ch/de/school-of-engineering/programm/cas-machine-intelligence.html) at [ZHAW](https://www.zhaw.ch), I wrote a paper in german to get familiar with the Generative Adversarial Networks (GAN) and the current development in this area.
+As part of the Machine Learning Module from the [CAS Machine Intelligence](https://weiterbildung.zhaw.ch/de/school-of-engineering/programm/cas-machine-intelligence.html) at [ZHAW](https://www.zhaw.ch), I wrote a paper in german to get familiar with the Generative Adversarial Networks ([GAN](https://arxiv.org/abs/1406.2661)) and the current development ([WGAN](https://arxiv.org/abs/1701.07875), [BEGAN](https://arxiv.org/abs/1703.10717)) in this area.
 
 ## Dependencies
 * pandoc
@@ -18,5 +18,5 @@ in SublimeText 3:
 
 on the command line run the following command to create the PDF document from the markdown file:
 ```
-pandoc overview_Generative_Adversarial_Network.mdown --latex-engine=xelatex --filter pandoc-citeproc -o Overview\ Generative\ Adversarial\ Networks\ \(Marcel_Canclini\).pdf
+pandoc Generative_Adversarial_Network.mdown --latex-engine=xelatex --filter pandoc-citeproc -o Overview\ Generative\ Adversarial\ Networks\ \(Marcel_Canclini\).pdf
 ```
